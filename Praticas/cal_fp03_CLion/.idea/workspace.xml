@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CAL_FP03" targetName="gtest" />
+      <config projectName="CAL_FP03" targetName="gmock_main" />
+      <config projectName="CAL_FP03" targetName="gmock" />
+      <config projectName="CAL_FP03" targetName="gtest_main" />
+      <config projectName="CAL_FP03" targetName="CAL_FP03" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="daef1354-ece7-4df7-b2a3-34da92230cab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1awPGRRc0vB1RdjbfshY6xfkFQY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="CMake Application.CAL_FP03">
+    <configuration name="CAL_FP03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAL_FP03" TARGET_NAME="CAL_FP03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CAL_FP03" RUN_TARGET_NAME="CAL_FP03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAL_FP03" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAL_FP03" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAL_FP03" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAL_FP03" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.CAL_FP03" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daef1354-ece7-4df7-b2a3-34da92230cab" name="Default Changelist" comment="" />
+      <created>1587643586796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587643586796</updated>
+      <workItem from="1587643588313" duration="2008000" />
+      <workItem from="1587659407984" duration="7786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1587742916111">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916111" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1587654902836" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1587742916110">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916110" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1587654902835" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1587742916109">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916109" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1587654902834" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1587742916110">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916110" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1587654902836" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1587742916114">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916114" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.23.1920.984@0.23.1920.984" timestamp="1587654902838" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1587742916112">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916112" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.23.1920.984@0.23.1920.984" timestamp="1587654902837" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1587742916112">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916112" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.23.1920.984@0.23.1920.984" timestamp="1587654902836" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1587742916113">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587742916113" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.23.1920.984@0.23.1920.984" timestamp="1587654902837" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1587661441364">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.23.1920.982@0.23.1920.982" timestamp="1587661441364" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tests/NearestPoints.cpp</url>
+          <line>95</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
