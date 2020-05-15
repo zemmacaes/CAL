@@ -1,4 +1,4 @@
-# Install script for directory: /Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/lib/googletest-master
+# Install script for directory: /home/joao/Documents/CAL/Praticas/cal_fp04_CLion/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -34,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

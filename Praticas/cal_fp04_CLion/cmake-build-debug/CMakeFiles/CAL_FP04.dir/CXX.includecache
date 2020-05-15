@@ -514,7 +514,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/Tests/Graph.h
+/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/Tests/Graph.h
 vector
 -
 queue
@@ -522,17 +522,17 @@ queue
 stack
 -
 
-/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/Tests/Person.h
+/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/Tests/Person.h
 string
 -
 
-/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/Tests/tests.cpp
+/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/Tests/tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
 Graph.h
-/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/Tests/Graph.h
+/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/Tests/Graph.h
 Person.h
-/Users/joao/Documents/Faculdade/CAL/Praticas/cal_fp04_CLion/Tests/Person.h
+/home/joao/Documents/CAL/Praticas/cal_fp04_CLion/Tests/Person.h
 
