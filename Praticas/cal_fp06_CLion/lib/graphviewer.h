@@ -368,6 +368,10 @@ public:
 	 */
 	bool rearrange();
 
+    int getWidth() const;
+
+    int getHeight() const;
+
 #if defined(__linux__) || defined(__APPLE__)
 	static pid_t procId;
 #endif

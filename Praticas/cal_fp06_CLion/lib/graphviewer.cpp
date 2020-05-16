@@ -328,3 +328,11 @@ bool GraphViewer::setEdgeFlow(int id, int flow) {
 bool GraphViewer::rearrange() {
 	return con->sendMsg("rearrange\n");
 }
+
+int GraphViewer::getWidth() const {
+    return width;
+}
+
+int GraphViewer::getHeight() const {
+    return height;
+}
