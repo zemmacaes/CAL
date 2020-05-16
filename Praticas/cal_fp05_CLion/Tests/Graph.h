@@ -175,43 +175,76 @@ bool Graph<T>::addEdge(const T &sourc, const T &dest, double w) {
 
 template<class T>
 void Graph<T>::unweightedShortestPath(const T &orig) {
+    	for (auto v : vertexSet)
+    	{
+	    v->dist = INF;
+	    v->path = nullptr;
+    	}
+
+	auto s = findVertex(orig);
+	s->dist = 0;
+
+	queue<Vertex<T> *> q;
+
+	q.push(s);
+
+	while (!q.empty())
+	{
+        	auto v = q.front();
+
+        	q.pop();
+
+        	for (auto &e : v->adj)
+        	{
+            		auto w = e.dest;
+
+            		if (v->dist + 1 < w->dist)
+            		{
+                		w->dist = v->dist + 1;
+                		w->path = v;
+                		q.push(w);
+            		}
+        	}
+    	}
+}
+
+
+template<class T>
+void Graph<T>::dijkstraShortestPath(const T &origin) {
     for (auto v : vertexSet)
     {
         v->dist = INF;
         v->path = nullptr;
     }
 
-    auto s = findVertex(orig);
+    auto s = findVertex(origin);
     s->dist = 0;
 
-    queue<Vertex<T> *> q;
+    MutablePriorityQueue<Vertex<T>> q;
 
-    q.push(s);
+    q.insert(s);
 
-    while (!q.empty())
+    while(!q.empty())
     {
-        auto v = q.front();
+        auto v = q.extractMin();
 
-        q.pop();
-
-        for (auto &e : v->adj)
+        for(auto &e : v->adj)
         {
+            auto od = e.dest->dist;
             auto w = e.dest;
 
-            if (v->dist + 1 < w->dist)
+            if(v->dist + e.weight < w->dist)
             {
-                w->dist = v->dist + 1;
+                w->dist = v->dist + e.weight;
                 w->path = v;
-                q.push(w);
+
+                if (od == INF)
+                    q.insert(w);
+                else
+                    q.decreaseKey(w);
             }
         }
     }
-}
-
-
-template<class T>
-void Graph<T>::dijkstraShortestPath(const T &origin) {
-	// TODO
 }
 
 
@@ -223,9 +256,19 @@ void Graph<T>::bellmanFordShortestPath(const T &orig) {
 
 template<class T>
 vector<T> Graph<T>::getPathTo(const T &dest) const{
-	vector<T> res;
-	// TODO
-	return res;
+    vector<T> res;
+	
+    auto v = findVertex(dest);
+
+        if (v == nullptr || v->dist == INF)
+            return res;
+
+        for (; v != nullptr; v = v->path)
+            res.push_back(v->info);
+
+        reverse(res.begin(), res.end());
+	
+    return res;
 }
 
 
